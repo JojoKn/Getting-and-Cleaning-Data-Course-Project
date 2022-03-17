@@ -5,7 +5,6 @@ The content of this repository is the following:
   1. "run_analysis.R": R-Script to merge and clean the dataset
   2. "CodeBook.Rmd": Codebook as Markdown File
   3. "README.md": This Readme File as an overview
-  4. "final_data.csv": The final data set
 
 The R-Script explains how the data is imported, merged, and cleaned to fit the requirements of the task. Furthermore, the final dataset, where the data is grouped by the individuals, is created within this script. For detailed information please see "run_analysis.R"
 In the Codebook, the variables are shortly explained.
