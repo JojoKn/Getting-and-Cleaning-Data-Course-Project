@@ -84,19 +84,10 @@ final_data<-group_by(combined_lean, id, activity)
 ###Calculating group means
 final_data<-summarise_all(final_data, funs(mean), groups="keep")
 
+###Exporting the final dataset
+
+write.csv(final_data, file="~/Desktop/Learning R/Getting and Cleaning Course Project/Getting-and-Cleaning-Data-Course-Project/final_data.csv")
 
 #################
 ###END OF CODE###
 #################
-
-
-
-
-
-
-
-
-
-
-
-
