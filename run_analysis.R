@@ -75,6 +75,22 @@ View(combined_lean)
 ###Required dataset for each of the 30 subjects and each of the 6 activities contains
 ###the mean of the measures obtained
 
+###loading the required package
+library(dplyr)
+
+###Grouping the dataset
+final_data<-group_by(combined_lean, id, activity)
+
+###Calculating group means
+final_data<-summarise_all(final_data, funs(mean), groups="keep")
+
+
+#################
+###END OF CODE###
+#################
+
+
+
 
 
 
