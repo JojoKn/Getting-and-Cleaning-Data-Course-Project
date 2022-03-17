@@ -3,7 +3,7 @@
 
 The content of this repository is the following:
   1. "run_analysis.R": R-Script to merge and clean the dataset
-  2. "CodeBook.md": Codebook as Markdown File
+  2. "CodeBook.Rmd": Codebook as Markdown File
   3. "README.md": This Readme File as an overview
   4. "final_data.csv": The final data set
 
