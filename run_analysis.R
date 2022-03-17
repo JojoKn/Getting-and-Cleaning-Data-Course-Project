@@ -86,7 +86,7 @@ final_data<-summarise_all(final_data, funs(mean), groups="keep")
 
 ###Exporting the final dataset
 
-write.csv(final_data, file="~/Desktop/Learning R/Getting and Cleaning Course Project/Getting-and-Cleaning-Data-Course-Project/final_data.csv")
+write.table(final_data, file="~/Desktop/Learning R/Getting and Cleaning Course Project/Getting-and-Cleaning-Data-Course-Project/final_data.txt", row.names = FALSE)
 
 #################
 ###END OF CODE###
